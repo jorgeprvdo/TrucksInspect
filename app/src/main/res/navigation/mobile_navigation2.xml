@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation2"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.infologin.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_abierto"
+        android:name="com.example.infologin.ui.abiertos.AbiertosFragment"
+        android:label="@string/menu_abierto"
+        tools:layout="@layout/fragment_abiertos" />
+
+    <fragment
+        android:id="@+id/nav_cerrado"
+        android:name="com.example.infologin.ui.cerrados.CerradosFragment"
+        android:label="@string/menu_cerrado"
+        tools:layout="@layout/fragment_cerrados" />
+
+    <fragment
+        android:id="@+id/nav_pendientes"
+        android:name="com.example.infologin.ui.Pendientes.PendientesFragment"
+        android:label="@string/menu_pendientes"
+        tools:layout="@layout/fragment_pendientes" />
+
+    <fragment
+        android:id="@+id/nav_progreso"
+        android:name="com.example.infologin.ui.EnProgreso.EnProgresoFragment"
+        android:label="@string/menu_progreso"
+        tools:layout="@layout/fragment_en_progreso" />
+    <fragment
+        android:id="@+id/nav_cerrar_sesion"
+        android:name="com.example.infologin.ui.cerrar_sesion.CerrarsesionFragment"
+        android:label="Cerrar Sesion"
+        tools:layout="@layout/fragment_cerrar_sesion" />
+
+</navigation>

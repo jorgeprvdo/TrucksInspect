@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:layout_height="match_parent"
+    tools:context="com.example.infologin.AddReporteActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Unidad">
+
+        <EditText
+            android:id="@+id/txt_nombreUnidad"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingTop="15dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Operador">
+
+        <EditText
+            android:id="@+id/txt_operador"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingTop="15dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ultimo Viaje">
+
+        <EditText
+            android:id="@+id/txt_ultimoViaje"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:ems="10"
+            android:inputType="number"
+            android:paddingTop="15dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fecha">
+
+        <EditText
+            android:id="@+id/txt_fecha"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:ems="10"
+            android:inputType="date"
+            android:paddingTop="15dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripcion">
+
+        <EditText
+            android:id="@+id/txt_descripcion"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:paddingTop="15dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+<!--    <ListView-->
+<!--        android:id="@+id/lv_datosReportes"-->
+<!--        android:layout_width="411dp"-->
+<!--        android:layout_height="274dp"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginEnd="19dp"-->
+<!--        android:layout_marginBottom="34dp"-->
+<!--        android:visibility="invisible" >-->
+
+<!--        -->
+<!--    </ListView>-->
+    <ImageView
+        android:id="@+id/ImagenAgregarReporte"
+        android:layout_width="61dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/ic_menu_gallery" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="bottom"
+        android:onClick="Ingresar"
+        android:text="Guardar Reporte"
+        tools:ignore="OnClick"  />
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "761917067912",
+    "project_id": "trucksinspect",
+    "storage_bucket": "trucksinspect.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:761917067912:android:44376aef78e6a33ed9453d",
+        "android_client_info": {
+          "package_name": "com.example.infologin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "761917067912-9smbqndn57288cecqdn4sul1db5g7u8o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6OsRbGrx79reIWF9_q_v0SGnFl79erUA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "761917067912-9smbqndn57288cecqdn4sul1db5g7u8o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

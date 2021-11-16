@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.infologin">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.InfoLogin">
+        <activity
+            android:name=".LogoutAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".ReportesCerradosAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".ReportesProgresoAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".ReportesAbiertosAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".ReporteDetalle"
+            android:exported="true" />
+        <activity
+            android:name=".model.ReportesA"
+            android:exported="true" />
+        <activity
+            android:name=".Admin"
+            android:exported="true" />
+        <activity
+            android:name=".AddReporteActivity"
+            android:exported="true"
+            android:label="Crear Reporte" />
+        <activity
+            android:name=".AddPersonaActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="true"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/Theme.InfoLogin.NoActionBar" />
+        <activity
+            android:name=".InicioCompletado"
+            android:exported="true"
+            android:label="Ayuda" />
+        <activity
+            android:name=".RegistrarseActivity"
+            android:exported="true"
+            android:label="Registrar" />
+        <activity
+            android:name=".IniciarSesionActivity"
+            android:exported="true"
+            android:label="Iniciar Sesión" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

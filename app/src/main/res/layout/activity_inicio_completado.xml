@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InicioCompletado">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="600dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/textViewMotto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Dicho registro se denomina “reporte” e incluye toda la información recogida durante la interacción entre cliente y servicio de soporte. El reporte puede ser actualizado cuantas veces sea necesario hasta el momento en que se resuelve el caso. "
+            android:textColor="#000000"
+            android:textSize="19dp"
+            />
+
+        <TextView
+            android:id="@+id/textViewEstatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="30dp"
+            android:text="Estatus"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:id="@+id/textViewAbierto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Abierto: El reporte ya se generó pero esta en espera de asignación de especialista."
+            android:textColor="#000000"
+            android:textSize="18dp"
+            />
+
+        <TextView
+            android:id="@+id/textViewEnProgreso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="En Progreso: Se le esta dando solución por parte del especialista"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            />
+        <TextView
+            android:id="@+id/textViewCerrado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Cerrado: El incidente o requerimiento se ha solucionado por parte del especialista."
+            android:textColor="#000000"
+            android:textSize="18dp"
+            />
+
+        <TextView
+            android:id="@+id/textViewPrioridad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="30dp"
+            android:text="Número o id de Reporte"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:id="@+id/textViewID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="El número de reporte es un número unico que nos permite ubicar nuestro problema."
+            android:textColor="#000000"
+            android:textSize="18dp"
+            />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

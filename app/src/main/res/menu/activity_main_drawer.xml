@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon"
+            android:title="@string/menu_home" />
+    </group>
+
+    <item android:title="Reportes">
+        <menu>
+            <item
+                android:id="@+id/nav_abierto"
+                android:icon="@drawable/reporte_icon"
+                android:title="@string/menu_abierto"
+                />
+
+            <item
+                android:id="@+id/nav_progreso"
+                android:icon="@drawable/reporte_icon"
+                android:title="@string/menu_progreso"
+                />
+
+            <item
+                android:id="@+id/nav_cerrado"
+                android:icon="@drawable/reporte_icon"
+                android:title="@string/menu_cerrado"
+                />
+        </menu>
+    </item>
+
+    <item android:title="Cuenta">
+        <menu>
+            <item
+                android:id="@+id/nav_cerrar_sesion"
+                android:icon="@drawable/logout_icon"
+                android:title="@string/menu_CerrarSesion" />
+        </menu>
+    </item>
+</menu>
